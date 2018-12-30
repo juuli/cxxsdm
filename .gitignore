@@ -1,0 +1,7 @@
+/bin/*
+!/bin/*.py
+/lib/*
+!/lib/*.py
+/build
+/data
+*.DS_Store

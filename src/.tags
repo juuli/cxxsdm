@@ -1,0 +1,585 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+main	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/decomposition_main.cpp	/^int main() {$/;"	function	line:30	signature:()
+NLOHMANN_JSON_HPP	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#define NLOHMANN_JSON_HPP$/;"	macro	line:30
+JSON_DEPRECATED	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_DEPRECATED /;"	macro	line:85
+JSON_DEPRECATED	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_DEPRECATED /;"	macro	line:87
+JSON_DEPRECATED	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_DEPRECATED$/;"	macro	line:89
+JSON_THROW	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_THROW(/;"	macro	line:94
+JSON_TRY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_TRY /;"	macro	line:95
+JSON_CATCH	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_CATCH(/;"	macro	line:96
+JSON_THROW	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_THROW(/;"	macro	line:98
+JSON_TRY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_TRY /;"	macro	line:99
+JSON_CATCH	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_CATCH(/;"	macro	line:100
+JSON_LIKELY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_LIKELY(/;"	macro	line:105
+JSON_UNLIKELY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_UNLIKELY(/;"	macro	line:106
+JSON_LIKELY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_LIKELY(/;"	macro	line:108
+JSON_UNLIKELY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    #define JSON_UNLIKELY(/;"	macro	line:109
+nlohmann	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^namespace nlohmann$/;"	namespace	line:117
+NLOHMANN_BASIC_JSON_TPL_DECLARATION	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#define NLOHMANN_BASIC_JSON_TPL_DECLARATION /;"	macro	line:138
+NLOHMANN_BASIC_JSON_TPL	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#define NLOHMANN_BASIC_JSON_TPL /;"	macro	line:146
+detail	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^namespace detail$/;"	namespace	line:160	namespace:nlohmann
+exception	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class exception : public std::exception$/;"	class	line:194	namespace:nlohmann::detail
+id	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const int id;$/;"	member	line:204	class:nlohmann::detail::exception
+exception	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    exception(int id_, const char* what_arg) : id(id_), m(what_arg) {}$/;"	function	line:207	class:nlohmann::detail::exception	signature:(int id_, const char* what_arg)
+name	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static std::string name(const std::string& ename, int id)$/;"	function	line:209	class:nlohmann::detail::exception	signature:(const std::string& ename, int id)
+m	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::runtime_error m;$/;"	member	line:216	class:nlohmann::detail::exception
+parse_error	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class parse_error : public exception$/;"	class	line:262	namespace:nlohmann::detail
+create	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static parse_error create(int id, std::size_t byte_, const std::string& what_arg)$/;"	function	line:273	class:nlohmann::detail::parse_error	signature:(int id, std::size_t byte_, const std::string& what_arg)
+byte	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const std::size_t byte;$/;"	member	line:290	class:nlohmann::detail::parse_error
+parse_error	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    parse_error(int id_, std::size_t byte_, const char* what_arg)$/;"	function	line:293	class:nlohmann::detail::parse_error	signature:(int id_, std::size_t byte_, const char* what_arg)
+invalid_iterator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class invalid_iterator : public exception$/;"	class	line:334	namespace:nlohmann::detail
+create	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static invalid_iterator create(int id, const std::string& what_arg)$/;"	function	line:337	class:nlohmann::detail::invalid_iterator	signature:(int id, const std::string& what_arg)
+invalid_iterator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    invalid_iterator(int id_, const char* what_arg)$/;"	function	line:344	class:nlohmann::detail::invalid_iterator	signature:(int id_, const char* what_arg)
+type_error	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class type_error : public exception$/;"	class	line:385	namespace:nlohmann::detail
+create	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static type_error create(int id, const std::string& what_arg)$/;"	function	line:388	class:nlohmann::detail::type_error	signature:(int id, const std::string& what_arg)
+type_error	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    type_error(int id_, const char* what_arg) : exception(id_, what_arg) {}$/;"	function	line:395	class:nlohmann::detail::type_error	signature:(int id_, const char* what_arg)
+out_of_range	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class out_of_range : public exception$/;"	class	line:428	namespace:nlohmann::detail
+create	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static out_of_range create(int id, const std::string& what_arg)$/;"	function	line:431	class:nlohmann::detail::out_of_range	signature:(int id, const std::string& what_arg)
+out_of_range	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    out_of_range(int id_, const char* what_arg) : exception(id_, what_arg) {}$/;"	function	line:438	class:nlohmann::detail::out_of_range	signature:(int id_, const char* what_arg)
+other_error	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class other_error : public exception$/;"	class	line:466	namespace:nlohmann::detail
+create	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static other_error create(int id, const std::string& what_arg)$/;"	function	line:469	class:nlohmann::detail::other_error	signature:(int id, const std::string& what_arg)
+other_error	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    other_error(int id_, const char* what_arg) : exception(id_, what_arg) {}$/;"	function	line:476	class:nlohmann::detail::other_error	signature:(int id_, const char* what_arg)
+value_t	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^enum class value_t : uint8_t$/;"	class	line:509	namespace:nlohmann::detail
+null	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    null,             \/\/\/< null value$/;"	member	line:511	class:nlohmann::detail::value_t
+object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    object,           \/\/\/< object (unordered set of name\/value pairs)$/;"	member	line:512	class:nlohmann::detail::value_t
+array	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    array,            \/\/\/< array (ordered collection of values)$/;"	member	line:513	class:nlohmann::detail::value_t
+string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    string,           \/\/\/< string value$/;"	member	line:514	class:nlohmann::detail::value_t
+boolean	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    boolean,          \/\/\/< boolean value$/;"	member	line:515	class:nlohmann::detail::value_t
+number_integer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    number_integer,   \/\/\/< number value (signed integer)$/;"	member	line:516	class:nlohmann::detail::value_t
+number_unsigned	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    number_unsigned,  \/\/\/< number value (unsigned integer)$/;"	member	line:517	class:nlohmann::detail::value_t
+number_float	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    number_float,     \/\/\/< number value (floating-point)$/;"	member	line:518	class:nlohmann::detail::value_t
+is_basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<typename> struct is_basic_json : std::false_type {};$/;"	struct	line:555	namespace:nlohmann::detail
+is_basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_basic_json<NLOHMANN_BASIC_JSON_TPL> : std::true_type {};$/;"	struct	line:558	namespace:nlohmann::detail
+index_sequence	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct index_sequence$/;"	struct	line:570	namespace:nlohmann::detail
+merge_and_renumber	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct merge_and_renumber<index_sequence<I1...>, index_sequence<I2...>>$/;"	struct	line:584	namespace:nlohmann::detail
+make_index_sequence	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct make_index_sequence$/;"	struct	line:589	namespace:nlohmann::detail
+make_index_sequence	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<> struct make_index_sequence<0> : index_sequence<> { };$/;"	struct	line:594	namespace:nlohmann::detail
+make_index_sequence	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<> struct make_index_sequence<1> : index_sequence<0> { };$/;"	struct	line:595	namespace:nlohmann::detail
+conjunction	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<class...> struct conjunction : std::true_type {};$/;"	struct	line:613	namespace:nlohmann::detail
+conjunction	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<class B1> struct conjunction<B1> : B1 {};$/;"	struct	line:614	namespace:nlohmann::detail
+conjunction	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct conjunction<B1, Bn...> : std::conditional<bool(B1::value), conjunction<Bn...>, B1>::type {};$/;"	struct	line:616	namespace:nlohmann::detail
+negation	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<class B> struct negation : std::integral_constant < bool, !B::value > {};$/;"	struct	line:618	namespace:nlohmann::detail
+priority_tag	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<unsigned N> struct priority_tag : priority_tag < N - 1 > {};$/;"	struct	line:621	namespace:nlohmann::detail
+priority_tag	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<> struct priority_tag<0> {};$/;"	struct	line:622	namespace:nlohmann::detail
+external_constructor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct external_constructor<value_t::boolean>$/;"	struct	line:632	namespace:nlohmann::detail
+external_constructor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct external_constructor<value_t::string>$/;"	struct	line:644	namespace:nlohmann::detail
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, const typename BasicJsonType::string_t& s)$/;"	function	line:647	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, const typename BasicJsonType::string_t& s)
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, typename BasicJsonType::string_t&& s)$/;"	function	line:655	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, typename BasicJsonType::string_t&& s)
+external_constructor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct external_constructor<value_t::number_float>$/;"	struct	line:664	namespace:nlohmann::detail
+external_constructor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct external_constructor<value_t::number_unsigned>$/;"	struct	line:676	namespace:nlohmann::detail
+external_constructor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct external_constructor<value_t::number_integer>$/;"	struct	line:688	namespace:nlohmann::detail
+external_constructor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct external_constructor<value_t::array>$/;"	struct	line:700	namespace:nlohmann::detail
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, const typename BasicJsonType::array_t& arr)$/;"	function	line:703	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, const typename BasicJsonType::array_t& arr)
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, typename BasicJsonType::array_t&& arr)$/;"	function	line:711	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, typename BasicJsonType::array_t&& arr)
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, const CompatibleArrayType& arr)$/;"	function	line:722	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, const CompatibleArrayType& arr)
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, const std::vector<bool>& arr)$/;"	function	line:732	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, const std::vector<bool>& arr)
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, const std::valarray<T>& arr)$/;"	function	line:746	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, const std::valarray<T>& arr)
+external_constructor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct external_constructor<value_t::object>$/;"	struct	line:758	namespace:nlohmann::detail
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, const typename BasicJsonType::object_t& obj)$/;"	function	line:761	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, const typename BasicJsonType::object_t& obj)
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, typename BasicJsonType::object_t&& obj)$/;"	function	line:769	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, typename BasicJsonType::object_t&& obj)
+construct	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void construct(BasicJsonType& j, const CompatibleObjectType& obj)$/;"	function	line:779	struct:nlohmann::detail::external_constructor	signature:(BasicJsonType& j, const CompatibleObjectType& obj)
+NLOHMANN_JSON_HAS_HELPER	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#define NLOHMANN_JSON_HAS_HELPER(/;"	macro	line:805
+NLOHMANN_JSON_HAS_HELPER	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef NLOHMANN_JSON_HAS_HELPER$/;"	macro	line:821
+is_compatible_object_type_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_compatible_object_type_impl : std::false_type {};$/;"	struct	line:825	namespace:nlohmann::detail
+is_compatible_object_type_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_compatible_object_type_impl<true, RealType, CompatibleObjectType>$/;"	struct	line:828	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr auto value =$/;"	member	line:830	struct:nlohmann::detail::is_compatible_object_type_impl
+is_compatible_object_type	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_compatible_object_type$/;"	struct	line:836	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static auto constexpr value = is_compatible_object_type_impl <$/;"	member	line:838	struct:nlohmann::detail::is_compatible_object_type
+is_basic_json_nested_type	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_basic_json_nested_type$/;"	struct	line:846	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static auto constexpr value = std::is_same<T, typename BasicJsonType::iterator>::value or$/;"	member	line:848	struct:nlohmann::detail::is_basic_json_nested_type
+is_compatible_array_type	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_compatible_array_type$/;"	struct	line:855	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static auto constexpr value =$/;"	member	line:857	struct:nlohmann::detail::is_compatible_array_type
+is_compatible_integer_type_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_compatible_integer_type_impl : std::false_type {};$/;"	struct	line:869	namespace:nlohmann::detail
+is_compatible_integer_type_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_compatible_integer_type_impl<true, RealIntegerType, CompatibleNumberIntegerType>$/;"	struct	line:872	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr auto value =$/;"	member	line:878	struct:nlohmann::detail::is_compatible_integer_type_impl
+is_compatible_integer_type	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct is_compatible_integer_type$/;"	struct	line:885	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr auto value =$/;"	member	line:887	struct:nlohmann::detail::is_compatible_integer_type
+has_from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct has_from_json$/;"	struct	line:897	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr bool value = std::is_integral<decltype($/;"	member	line:907	struct:nlohmann::detail::has_from_json
+has_non_default_from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct has_non_default_from_json$/;"	struct	line:914	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr bool value = std::is_integral<decltype(detect($/;"	member	line:925	struct:nlohmann::detail::has_non_default_from_json
+has_to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct has_to_json$/;"	struct	line:931	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr bool value = std::is_integral<decltype(detect($/;"	member	line:940	struct:nlohmann::detail::has_to_json
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, const CompatibleString& s)$/;"	function	line:959	namespace:nlohmann::detail	signature:(BasicJsonType& j, const CompatibleString& s)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, typename BasicJsonType::string_t&& s)$/;"	function	line:965	namespace:nlohmann::detail	signature:(BasicJsonType& j, typename BasicJsonType::string_t&& s)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, const std::vector<bool>& e)$/;"	function	line:1004	namespace:nlohmann::detail	signature:(BasicJsonType& j, const std::vector<bool>& e)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, const CompatibleArrayType& arr)$/;"	function	line:1015	namespace:nlohmann::detail	signature:(BasicJsonType& j, const CompatibleArrayType& arr)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, std::valarray<T> arr)$/;"	function	line:1022	namespace:nlohmann::detail	signature:(BasicJsonType& j, std::valarray<T> arr)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, typename BasicJsonType::array_t&& arr)$/;"	function	line:1028	namespace:nlohmann::detail	signature:(BasicJsonType& j, typename BasicJsonType::array_t&& arr)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, const CompatibleObjectType& obj)$/;"	function	line:1037	namespace:nlohmann::detail	signature:(BasicJsonType& j, const CompatibleObjectType& obj)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, typename BasicJsonType::object_t&& obj)$/;"	function	line:1043	namespace:nlohmann::detail	signature:(BasicJsonType& j, typename BasicJsonType::object_t&& obj)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, T (&arr)[N])$/;"	function	line:1052	namespace:nlohmann::detail	signature:(BasicJsonType& j, T (&arr)[N])
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, const std::pair<Args...>& p)$/;"	function	line:1058	namespace:nlohmann::detail	signature:(BasicJsonType& j, const std::pair<Args...>& p)
+to_json_tuple_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json_tuple_impl(BasicJsonType& j, const Tuple& t, index_sequence<Idx...>)$/;"	function	line:1064	namespace:nlohmann::detail	signature:(BasicJsonType& j, const Tuple& t, index_sequence<Idx...>)
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void to_json(BasicJsonType& j, const std::tuple<Args...>& t)$/;"	function	line:1070	namespace:nlohmann::detail	signature:(BasicJsonType& j, const std::tuple<Args...>& t)
+get_arithmetic_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void get_arithmetic_value(const BasicJsonType& j, ArithmeticType& val)$/;"	function	line:1085	namespace:nlohmann::detail	signature:(const BasicJsonType& j, ArithmeticType& val)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, typename BasicJsonType::boolean_t& b)$/;"	function	line:1111	namespace:nlohmann::detail	signature:(const BasicJsonType& j, typename BasicJsonType::boolean_t& b)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, typename BasicJsonType::string_t& s)$/;"	function	line:1121	namespace:nlohmann::detail	signature:(const BasicJsonType& j, typename BasicJsonType::string_t& s)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, typename BasicJsonType::number_float_t& val)$/;"	function	line:1131	namespace:nlohmann::detail	signature:(const BasicJsonType& j, typename BasicJsonType::number_float_t& val)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, typename BasicJsonType::number_unsigned_t& val)$/;"	function	line:1137	namespace:nlohmann::detail	signature:(const BasicJsonType& j, typename BasicJsonType::number_unsigned_t& val)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, typename BasicJsonType::number_integer_t& val)$/;"	function	line:1143	namespace:nlohmann::detail	signature:(const BasicJsonType& j, typename BasicJsonType::number_integer_t& val)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, EnumType& e)$/;"	function	line:1150	namespace:nlohmann::detail	signature:(const BasicJsonType& j, EnumType& e)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, typename BasicJsonType::array_t& arr)$/;"	function	line:1158	namespace:nlohmann::detail	signature:(const BasicJsonType& j, typename BasicJsonType::array_t& arr)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, std::forward_list<T, Allocator>& l)$/;"	function	line:1170	namespace:nlohmann::detail	signature:(const BasicJsonType& j, std::forward_list<T, Allocator>& l)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, std::valarray<T>& l)$/;"	function	line:1186	namespace:nlohmann::detail	signature:(const BasicJsonType& j, std::valarray<T>& l)
+from_json_array_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json_array_impl(const BasicJsonType& j, CompatibleArrayType& arr, priority_tag<0> \/*unused*\/)$/;"	function	line:1200	namespace:nlohmann::detail	signature:(const BasicJsonType& j, CompatibleArrayType& arr, priority_tag<0> )
+decltype	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^-> decltype($/;"	function	line:1215	namespace:nlohmann::detail	signature:( arr.reserve(std::declval<typename CompatibleArrayType::size_type>()), void())
+from_json_array_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json_array_impl(const BasicJsonType& j, std::array<T, N>& arr, priority_tag<2> \/*unused*\/)$/;"	function	line:1232	namespace:nlohmann::detail	signature:(const BasicJsonType& j, std::array<T, N>& arr, priority_tag<2> )
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, CompatibleArrayType& arr)$/;"	function	line:1244	namespace:nlohmann::detail	signature:(const BasicJsonType& j, CompatibleArrayType& arr)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, CompatibleObjectType& obj)$/;"	function	line:1256	namespace:nlohmann::detail	signature:(const BasicJsonType& j, CompatibleObjectType& obj)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, ArithmeticType& val)$/;"	function	line:1286	namespace:nlohmann::detail	signature:(const BasicJsonType& j, ArithmeticType& val)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, std::pair<A1, A2>& p)$/;"	function	line:1317	namespace:nlohmann::detail	signature:(const BasicJsonType& j, std::pair<A1, A2>& p)
+from_json_tuple_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json_tuple_impl(const BasicJsonType& j, Tuple& t, index_sequence<Idx...>)$/;"	function	line:1323	namespace:nlohmann::detail	signature:(const BasicJsonType& j, Tuple& t, index_sequence<Idx...>)
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void from_json(const BasicJsonType& j, std::tuple<Args...>& t)$/;"	function	line:1329	namespace:nlohmann::detail	signature:(const BasicJsonType& j, std::tuple<Args...>& t)
+to_json_fn	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct to_json_fn$/;"	struct	line:1334	namespace:nlohmann::detail
+call	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    noexcept(noexcept(std::declval<to_json_fn>().call(j, std::forward<T>(val), priority_tag<1> {})))$/;"	function	line:1354	struct:nlohmann::detail::to_json_fn	signature:(j, std::forward<T>(val), priority_tag<1> {})
+from_json_fn	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct from_json_fn$/;"	struct	line:1360	namespace:nlohmann::detail
+call	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    noexcept(noexcept(std::declval<from_json_fn>().call(j, val, priority_tag<1> {})))$/;"	function	line:1381	struct:nlohmann::detail::from_json_fn	signature:(j, val, priority_tag<1> {})
+static_const	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct static_const$/;"	struct	line:1389	namespace:nlohmann::detail
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^constexpr T static_const<T>::value;$/;"	member	line:1395	class:nlohmann::detail::static_const
+input_adapter_protocol	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct input_adapter_protocol$/;"	struct	line:1402	namespace:nlohmann::detail
+cached_input_stream_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class cached_input_stream_adapter : public input_adapter_protocol$/;"	class	line:1414	namespace:nlohmann::detail
+cached_input_stream_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit cached_input_stream_adapter(std::istream& i)$/;"	function	line:1417	class:nlohmann::detail::cached_input_stream_adapter	signature:(std::istream& i)
+fill_buffer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void fill_buffer()$/;"	function	line:1492	class:nlohmann::detail::cached_input_stream_adapter	signature:()
+is	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::istream& is;$/;"	member	line:1501	class:nlohmann::detail::cached_input_stream_adapter
+processed_chars	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::size_t processed_chars = 0;$/;"	member	line:1504	class:nlohmann::detail::cached_input_stream_adapter
+buffer_pos	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::size_t buffer_pos = 0;$/;"	member	line:1506	class:nlohmann::detail::cached_input_stream_adapter
+eof	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool eof = false;$/;"	member	line:1509	class:nlohmann::detail::cached_input_stream_adapter
+fill_size	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::size_t fill_size = 0;$/;"	member	line:1511	class:nlohmann::detail::cached_input_stream_adapter
+start_position	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const std::streampos start_position;$/;"	member	line:1514	class:nlohmann::detail::cached_input_stream_adapter
+input_buffer_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class input_buffer_adapter : public input_adapter_protocol$/;"	class	line:1521	namespace:nlohmann::detail
+input_buffer_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_buffer_adapter(const char* b, const std::size_t l)$/;"	function	line:1524	class:nlohmann::detail::input_buffer_adapter	signature:(const char* b, const std::size_t l)
+cursor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const char* cursor;$/;"	member	line:1557	class:nlohmann::detail::input_buffer_adapter
+limit	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const char* limit;$/;"	member	line:1559	class:nlohmann::detail::input_buffer_adapter
+start	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const char* start;$/;"	member	line:1561	class:nlohmann::detail::input_buffer_adapter
+input_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class input_adapter$/;"	class	line:1564	namespace:nlohmann::detail
+input_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_adapter(std::istream& i)$/;"	function	line:1570	class:nlohmann::detail::input_adapter	signature:(std::istream& i)
+input_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_adapter(std::istream&& i)$/;"	function	line:1574	class:nlohmann::detail::input_adapter	signature:(std::istream&& i)
+input_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_adapter(CharT b, std::size_t l)$/;"	function	line:1585	class:nlohmann::detail::input_adapter	signature:(CharT b, std::size_t l)
+input_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_adapter(CharT b)$/;"	function	line:1598	class:nlohmann::detail::input_adapter	signature:(CharT b)
+input_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_adapter(IteratorType first, IteratorType last)$/;"	function	line:1608	class:nlohmann::detail::input_adapter	signature:(IteratorType first, IteratorType last)
+end	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        : input_adapter(std::begin(array), std::end(array)) {}$/;"	function	line:1641	class:nlohmann::detail::input_adapter::std	signature:(array)
+input_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_adapter(const ContiguousContainer& c)$/;"	function	line:1651	class:nlohmann::detail::input_adapter	signature:(const ContiguousContainer& c)
+operator input_adapter_t	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    operator input_adapter_t()$/;"	function	line:1654	class:nlohmann::detail::input_adapter	signature:()
+ia	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_adapter_t ia = nullptr;$/;"	member	line:1661	class:nlohmann::detail::input_adapter
+lexer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class lexer$/;"	class	line:1674	namespace:nlohmann::detail
+token_type	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    enum class token_type$/;"	class	line:1682	class:nlohmann::detail::lexer
+uninitialized	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        uninitialized,    \/\/\/< indicating the scanner is uninitialized$/;"	member	line:1684	class:nlohmann::detail::lexer::token_type
+literal_true	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        literal_true,     \/\/\/< the `true` literal$/;"	member	line:1685	class:nlohmann::detail::lexer::token_type
+literal_false	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        literal_false,    \/\/\/< the `false` literal$/;"	member	line:1686	class:nlohmann::detail::lexer::token_type
+literal_null	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        literal_null,     \/\/\/< the `null` literal$/;"	member	line:1687	class:nlohmann::detail::lexer::token_type
+value_string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        value_string,     \/\/\/< a string -- use get_string() for actual value$/;"	member	line:1688	class:nlohmann::detail::lexer::token_type
+value_unsigned	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        value_unsigned,   \/\/\/< an unsigned integer -- use get_number_unsigned() for actual value$/;"	member	line:1689	class:nlohmann::detail::lexer::token_type
+value_integer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        value_integer,    \/\/\/< a signed integer -- use get_number_integer() for actual value$/;"	member	line:1690	class:nlohmann::detail::lexer::token_type
+value_float	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        value_float,      \/\/\/< an floating point number -- use get_number_float() for actual value$/;"	member	line:1691	class:nlohmann::detail::lexer::token_type
+begin_array	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        begin_array,      \/\/\/< the character for array begin `[`$/;"	member	line:1692	class:nlohmann::detail::lexer::token_type
+begin_object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        begin_object,     \/\/\/< the character for object begin `{`$/;"	member	line:1693	class:nlohmann::detail::lexer::token_type
+end_array	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        end_array,        \/\/\/< the character for array end `]`$/;"	member	line:1694	class:nlohmann::detail::lexer::token_type
+end_object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        end_object,       \/\/\/< the character for object end `}`$/;"	member	line:1695	class:nlohmann::detail::lexer::token_type
+name_separator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        name_separator,   \/\/\/< the name separator `:`$/;"	member	line:1696	class:nlohmann::detail::lexer::token_type
+value_separator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        value_separator,  \/\/\/< the value separator `,`$/;"	member	line:1697	class:nlohmann::detail::lexer::token_type
+parse_error	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        parse_error,      \/\/\/< indicating a parse error$/;"	member	line:1698	class:nlohmann::detail::lexer::token_type
+end_of_input	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        end_of_input,     \/\/\/< indicating the end of the input buffer$/;"	member	line:1699	class:nlohmann::detail::lexer::token_type
+lexer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit lexer(detail::input_adapter_t adapter)$/;"	function	line:1745	class:nlohmann::detail::lexer	signature:(detail::input_adapter_t adapter)
+get_codepoint	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    int get_codepoint()$/;"	function	line:1784	class:nlohmann::detail::lexer	signature:()
+next_byte_in_range	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool next_byte_in_range(std::initializer_list<int> ranges)$/;"	function	line:1826	class:nlohmann::detail::lexer	signature:(std::initializer_list<int> ranges)
+scan_string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    token_type scan_string()$/;"	function	line:1862	class:nlohmann::detail::lexer	signature:()
+scan_number	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    token_type scan_number()$/;"	function	line:2353	class:nlohmann::detail::lexer	signature:()
+scan_literal	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    token_type scan_literal(const char* literal_text, const std::size_t length,$/;"	function	line:2690	class:nlohmann::detail::lexer	signature:(const char* literal_text, const std::size_t length, token_type return_type)
+get	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    int get()$/;"	function	line:2717	class:nlohmann::detail::lexer	signature:()
+add	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void add(int c)$/;"	function	line:2725	class:nlohmann::detail::lexer	signature:(int c)
+get_string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const std::string get_string()$/;"	function	line:2761	class:nlohmann::detail::lexer	signature:()
+get_token_string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::string get_token_string() const$/;"	function	line:2779	class:nlohmann::detail::lexer	signature:() const
+scan	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    token_type scan()$/;"	function	line:2821	class:nlohmann::detail::lexer	signature:()
+ia	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    detail::input_adapter_t ia = nullptr;$/;"	member	line:2887	class:nlohmann::detail::lexer
+current	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    int current = std::char_traits<char>::eof();$/;"	member	line:2890	class:nlohmann::detail::lexer
+next_unget	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool next_unget = false;$/;"	member	line:2893	class:nlohmann::detail::lexer
+chars_read	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::size_t chars_read = 0;$/;"	member	line:2896	class:nlohmann::detail::lexer
+start_pos	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::size_t start_pos = 0;$/;"	member	line:2898	class:nlohmann::detail::lexer
+yytext	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::vector<char> yytext = std::vector<char>(1024, '\\0');$/;"	member	line:2901	class:nlohmann::detail::lexer
+yylen	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::size_t yylen = 0;$/;"	member	line:2903	class:nlohmann::detail::lexer
+error_message	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const char* error_message = "";$/;"	member	line:2906	class:nlohmann::detail::lexer
+value_integer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    number_integer_t value_integer = 0;$/;"	member	line:2909	class:nlohmann::detail::lexer
+value_unsigned	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    number_unsigned_t value_unsigned = 0;$/;"	member	line:2910	class:nlohmann::detail::lexer
+value_float	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    number_float_t value_float = 0;$/;"	member	line:2911	class:nlohmann::detail::lexer
+decimal_point_char	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const char decimal_point_char = '.';$/;"	member	line:2914	class:nlohmann::detail::lexer
+parser	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class parser$/;"	class	line:2923	namespace:nlohmann::detail
+parse_event_t	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    enum class parse_event_t : uint8_t$/;"	class	line:2932	class:nlohmann::detail::parser
+object_start	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        object_start,$/;"	member	line:2935	class:nlohmann::detail::parser::parse_event_t
+object_end	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        object_end,$/;"	member	line:2937	class:nlohmann::detail::parser::parse_event_t
+array_start	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        array_start,$/;"	member	line:2939	class:nlohmann::detail::parser::parse_event_t
+array_end	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        array_end,$/;"	member	line:2941	class:nlohmann::detail::parser::parse_event_t
+key	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        key,$/;"	member	line:2943	class:nlohmann::detail::parser::parse_event_t
+parser	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit parser(detail::input_adapter_t adapter,$/;"	function	line:2952	class:nlohmann::detail::parser	signature:(detail::input_adapter_t adapter, const parser_callback_t cb = nullptr, const bool allow_exceptions_ = true)
+parse	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void parse(const bool strict, BasicJsonType& result)$/;"	function	line:2968	class:nlohmann::detail::parser	signature:(const bool strict, BasicJsonType& result)
+accept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool accept(const bool strict = true)$/;"	function	line:3004	class:nlohmann::detail::parser	signature:(const bool strict = true)
+parse_internal	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void parse_internal(bool keep, BasicJsonType& result)$/;"	function	line:3025	class:nlohmann::detail::parser	signature:(bool keep, BasicJsonType& result)
+accept_internal	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool accept_internal()$/;"	function	line:3297	class:nlohmann::detail::parser	signature:()
+get_token	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    token_type get_token()$/;"	function	line:3401	class:nlohmann::detail::parser	signature:()
+expect	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool expect(token_type t)$/;"	function	line:3409	class:nlohmann::detail::parser	signature:(token_type t)
+throw_exception	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    [[noreturn]] void throw_exception() const$/;"	function	line:3428	class:nlohmann::detail::parser	signature:() const
+depth	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    int depth = 0;$/;"	member	line:3451	class:nlohmann::detail::parser
+callback	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const parser_callback_t callback = nullptr;$/;"	member	line:3453	class:nlohmann::detail::parser
+last_token	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    token_type last_token = token_type::uninitialized;$/;"	member	line:3455	class:nlohmann::detail::parser
+m_lexer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    lexer_t m_lexer;$/;"	member	line:3457	class:nlohmann::detail::parser
+errored	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool errored = false;$/;"	member	line:3459	class:nlohmann::detail::parser
+expected	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    token_type expected = token_type::uninitialized;$/;"	member	line:3461	class:nlohmann::detail::parser
+allow_exceptions	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const bool allow_exceptions = true;$/;"	member	line:3463	class:nlohmann::detail::parser
+primitive_iterator_t	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class primitive_iterator_t$/;"	class	line:3479	namespace:nlohmann::detail
+operator +	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    primitive_iterator_t operator+(difference_type i)$/;"	function	line:3543	class:nlohmann::detail::primitive_iterator_t	signature:(difference_type i)
+operator <<	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    friend std::ostream& operator<<(std::ostream& os, primitive_iterator_t it)$/;"	function	line:3555	class:nlohmann::detail::primitive_iterator_t	signature:(std::ostream& os, primitive_iterator_t it)
+operator ++	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    primitive_iterator_t& operator++()$/;"	function	line:3560	class:nlohmann::detail::primitive_iterator_t	signature:()
+operator ++	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    primitive_iterator_t operator++(int)$/;"	function	line:3566	class:nlohmann::detail::primitive_iterator_t	signature:(int)
+operator --	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    primitive_iterator_t& operator--()$/;"	function	line:3573	class:nlohmann::detail::primitive_iterator_t	signature:()
+operator --	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    primitive_iterator_t operator--(int)$/;"	function	line:3579	class:nlohmann::detail::primitive_iterator_t	signature:(int)
+operator +=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    primitive_iterator_t& operator+=(difference_type n)$/;"	function	line:3586	class:nlohmann::detail::primitive_iterator_t	signature:(difference_type n)
+operator -=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    primitive_iterator_t& operator-=(difference_type n)$/;"	function	line:3592	class:nlohmann::detail::primitive_iterator_t	signature:(difference_type n)
+begin_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr difference_type begin_value = 0;$/;"	member	line:3599	class:nlohmann::detail::primitive_iterator_t
+end_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr difference_type end_value = begin_value + 1;$/;"	member	line:3600	class:nlohmann::detail::primitive_iterator_t
+m_it	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    difference_type m_it = std::numeric_limits<std::ptrdiff_t>::denorm_min();$/;"	member	line:3603	class:nlohmann::detail::primitive_iterator_t
+internal_iterator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<typename BasicJsonType> struct internal_iterator$/;"	struct	line:3612	namespace:nlohmann::detail
+iter_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class iter_impl : public std::iterator<std::random_access_iterator_tag, BasicJsonType>$/;"	class	line:3644	namespace:nlohmann::detail
+m_object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit iter_impl(pointer object) noexcept : m_object(object)$/;"	function	line:3683	class:nlohmann::detail::iter_impl	signature:(object)
+m_it	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        : m_object(other.m_object), m_it(other.m_it) {}$/;"	function	line:3724	class:nlohmann::detail::iter_impl	signature:(other.m_it)
+operator *	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator*() const$/;"	function	line:3812	class:nlohmann::detail::iter_impl	signature:() const
+operator ->	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    pointer operator->() const$/;"	function	line:3849	class:nlohmann::detail::iter_impl	signature:() const
+operator ++	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iter_impl operator++(int)$/;"	function	line:3883	class:nlohmann::detail::iter_impl	signature:(int)
+operator ++	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iter_impl& operator++()$/;"	function	line:3894	class:nlohmann::detail::iter_impl	signature:()
+operator --	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iter_impl operator--(int)$/;"	function	line:3926	class:nlohmann::detail::iter_impl	signature:(int)
+operator --	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iter_impl& operator--()$/;"	function	line:3937	class:nlohmann::detail::iter_impl	signature:()
+operator ==	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool operator==(const iter_impl& other) const$/;"	function	line:3969	class:nlohmann::detail::iter_impl	signature:(const iter_impl& other) const
+operator !=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool operator!=(const iter_impl& other) const$/;"	function	line:3996	class:nlohmann::detail::iter_impl	signature:(const iter_impl& other) const
+operator <	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool operator<(const iter_impl& other) const$/;"	function	line:4005	class:nlohmann::detail::iter_impl	signature:(const iter_impl& other) const
+operator <=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool operator<=(const iter_impl& other) const$/;"	function	line:4032	class:nlohmann::detail::iter_impl	signature:(const iter_impl& other) const
+operator >	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool operator>(const iter_impl& other) const$/;"	function	line:4041	class:nlohmann::detail::iter_impl	signature:(const iter_impl& other) const
+operator >=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool operator>=(const iter_impl& other) const$/;"	function	line:4050	class:nlohmann::detail::iter_impl	signature:(const iter_impl& other) const
+operator +=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iter_impl& operator+=(difference_type i)$/;"	function	line:4059	class:nlohmann::detail::iter_impl	signature:(difference_type i)
+operator -=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iter_impl& operator-=(difference_type i)$/;"	function	line:4088	class:nlohmann::detail::iter_impl	signature:(difference_type i)
+operator +	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iter_impl operator+(difference_type i) const$/;"	function	line:4097	class:nlohmann::detail::iter_impl	signature:(difference_type i) const
+operator +	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    friend iter_impl operator+(difference_type i, const iter_impl& it)$/;"	function	line:4108	class:nlohmann::detail::iter_impl	signature:(difference_type i, const iter_impl& it)
+operator -	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iter_impl operator-(difference_type i) const$/;"	function	line:4119	class:nlohmann::detail::iter_impl	signature:(difference_type i) const
+operator -	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    difference_type operator-(const iter_impl& other) const$/;"	function	line:4130	class:nlohmann::detail::iter_impl	signature:(const iter_impl& other) const
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator[](difference_type n) const$/;"	function	line:4151	class:nlohmann::detail::iter_impl	signature:(difference_type n) const
+key	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    typename object_t::key_type key() const$/;"	function	line:4182	class:nlohmann::detail::iter_impl	signature:() const
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference value() const$/;"	function	line:4198	class:nlohmann::detail::iter_impl	signature:() const
+m_object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    pointer m_object = nullptr;$/;"	member	line:4205	class:nlohmann::detail::iter_impl
+m_it	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    internal_iterator<typename std::remove_const<BasicJsonType>::type> m_it = {};$/;"	member	line:4207	class:nlohmann::detail::iter_impl
+iteration_proxy	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<typename IteratorType> class iteration_proxy$/;"	class	line:4211	namespace:nlohmann::detail
+iteration_proxy_internal	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    class iteration_proxy_internal$/;"	class	line:4215	class:nlohmann::detail::iteration_proxy
+anchor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        IteratorType anchor;$/;"	member	line:4219	class:nlohmann::detail::iteration_proxy::iteration_proxy_internal
+array_index	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        std::size_t array_index = 0;$/;"	member	line:4221	class:nlohmann::detail::iteration_proxy::iteration_proxy_internal
+anchor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        explicit iteration_proxy_internal(IteratorType it) noexcept : anchor(it) {}$/;"	function	line:4224	class:nlohmann::detail::iteration_proxy::iteration_proxy_internal	signature:(it)
+operator *	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        iteration_proxy_internal& operator*()$/;"	function	line:4227	class:nlohmann::detail::iteration_proxy::iteration_proxy_internal	signature:()
+operator ++	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        iteration_proxy_internal& operator++()$/;"	function	line:4233	class:nlohmann::detail::iteration_proxy::iteration_proxy_internal	signature:()
+key	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        std::string key() const$/;"	function	line:4248	class:nlohmann::detail::iteration_proxy::iteration_proxy_internal	signature:() const
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        typename IteratorType::reference value() const$/;"	function	line:4269	class:nlohmann::detail::iteration_proxy::iteration_proxy_internal	signature:() const
+container	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    typename IteratorType::reference container;$/;"	member	line:4276	class:nlohmann::detail::iteration_proxy
+iteration_proxy	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit iteration_proxy(typename IteratorType::reference cont)$/;"	function	line:4280	class:nlohmann::detail::iteration_proxy	signature:(typename IteratorType::reference cont)
+json_reverse_iterator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class json_reverse_iterator : public std::reverse_iterator<Base>$/;"	class	line:4315	namespace:nlohmann::detail
+base_iterator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        : base_iterator(it) {}$/;"	function	line:4326	class:nlohmann::detail::json_reverse_iterator	signature:(it)
+base_iterator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_reverse_iterator(const base_iterator& it) noexcept : base_iterator(it) {}$/;"	function	line:4329	class:nlohmann::detail::json_reverse_iterator	signature:(it)
+operator ++	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_reverse_iterator operator++(int)$/;"	function	line:4332	class:nlohmann::detail::json_reverse_iterator	signature:(int)
+operator ++	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_reverse_iterator& operator++()$/;"	function	line:4338	class:nlohmann::detail::json_reverse_iterator	signature:()
+operator --	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_reverse_iterator operator--(int)$/;"	function	line:4344	class:nlohmann::detail::json_reverse_iterator	signature:(int)
+operator --	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_reverse_iterator& operator--()$/;"	function	line:4350	class:nlohmann::detail::json_reverse_iterator	signature:()
+operator +=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_reverse_iterator& operator+=(difference_type i)$/;"	function	line:4356	class:nlohmann::detail::json_reverse_iterator	signature:(difference_type i)
+operator +	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_reverse_iterator operator+(difference_type i) const$/;"	function	line:4362	class:nlohmann::detail::json_reverse_iterator	signature:(difference_type i) const
+operator -	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_reverse_iterator operator-(difference_type i) const$/;"	function	line:4368	class:nlohmann::detail::json_reverse_iterator	signature:(difference_type i) const
+operator -	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    difference_type operator-(const json_reverse_iterator& other) const$/;"	function	line:4374	class:nlohmann::detail::json_reverse_iterator	signature:(const json_reverse_iterator& other) const
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator[](difference_type n) const$/;"	function	line:4380	class:nlohmann::detail::json_reverse_iterator	signature:(difference_type n) const
+key	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    auto key() const -> decltype(std::declval<Base>().key())$/;"	function	line:4386	class:nlohmann::detail::json_reverse_iterator	signature:()
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference value() const$/;"	function	line:4393	class:nlohmann::detail::json_reverse_iterator	signature:() const
+output_adapter_protocol	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^template<typename CharType> struct output_adapter_protocol$/;"	struct	line:4405	namespace:nlohmann::detail
+output_vector_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class output_vector_adapter : public output_adapter_protocol<CharType>$/;"	class	line:4418	namespace:nlohmann::detail
+output_vector_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit output_vector_adapter(std::vector<CharType>& vec) : v(vec) {}$/;"	function	line:4421	class:nlohmann::detail::output_vector_adapter	signature:(std::vector<CharType>& vec)
+v	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::vector<CharType>& v;$/;"	member	line:4434	class:nlohmann::detail::output_vector_adapter
+output_stream_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class output_stream_adapter : public output_adapter_protocol<CharType>$/;"	class	line:4439	namespace:nlohmann::detail
+output_stream_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit output_stream_adapter(std::basic_ostream<CharType>& s) : stream(s) {}$/;"	function	line:4442	class:nlohmann::detail::output_stream_adapter	signature:(std::basic_ostream<CharType>& s)
+stream	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::basic_ostream<CharType>& stream;$/;"	member	line:4455	class:nlohmann::detail::output_stream_adapter
+output_string_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class output_string_adapter : public output_adapter_protocol<CharType>$/;"	class	line:4460	namespace:nlohmann::detail
+output_string_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit output_string_adapter(std::basic_string<CharType>& s) : str(s) {}$/;"	function	line:4463	class:nlohmann::detail::output_string_adapter	signature:(std::basic_string<CharType>& s)
+str	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::basic_string<CharType>& str;$/;"	member	line:4476	class:nlohmann::detail::output_string_adapter
+output_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class output_adapter$/;"	class	line:4480	namespace:nlohmann::detail
+output_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    output_adapter(std::vector<CharType>& vec)$/;"	function	line:4483	class:nlohmann::detail::output_adapter	signature:(std::vector<CharType>& vec)
+output_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    output_adapter(std::basic_ostream<CharType>& s)$/;"	function	line:4486	class:nlohmann::detail::output_adapter	signature:(std::basic_ostream<CharType>& s)
+output_adapter	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    output_adapter(std::basic_string<CharType>& s)$/;"	function	line:4489	class:nlohmann::detail::output_adapter	signature:(std::basic_string<CharType>& s)
+operator output_adapter_t<CharType>	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    operator output_adapter_t<CharType>()$/;"	function	line:4492	class:nlohmann::detail::output_adapter	signature:()
+oa	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    output_adapter_t<CharType> oa = nullptr;$/;"	member	line:4498	class:nlohmann::detail::output_adapter
+binary_reader	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class binary_reader$/;"	class	line:4509	namespace:nlohmann::detail
+binary_reader	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit binary_reader(input_adapter_t adapter) : ia(std::move(adapter))$/;"	function	line:4520	class:nlohmann::detail::binary_reader	signature:(input_adapter_t adapter)
+parse_cbor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    BasicJsonType parse_cbor(const bool strict)$/;"	function	line:4535	class:nlohmann::detail::binary_reader	signature:(const bool strict)
+parse_msgpack	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    BasicJsonType parse_msgpack(const bool strict)$/;"	function	line:4556	class:nlohmann::detail::binary_reader	signature:(const bool strict)
+parse_cbor_internal	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    BasicJsonType parse_cbor_internal(const bool get_char = true)$/;"	function	line:4585	class:nlohmann::detail::binary_reader	signature:(const bool get_char = true)
+parse_msgpack_internal	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    BasicJsonType parse_msgpack_internal()$/;"	function	line:4903	class:nlohmann::detail::binary_reader	signature:()
+get	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    int get()$/;"	function	line:5237	class:nlohmann::detail::binary_reader	signature:()
+get_number	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    template<typename NumberType> NumberType get_number()$/;"	function	line:5256	class:nlohmann::detail::binary_reader	signature:()
+get_string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::string get_string(const NumberType len)$/;"	function	line:5296	class:nlohmann::detail::binary_reader	signature:(const NumberType len)
+get_cbor_string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::string get_cbor_string()$/;"	function	line:5320	class:nlohmann::detail::binary_reader	signature:()
+get_cbor_array	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    BasicJsonType get_cbor_array(const NumberType len)$/;"	function	line:5396	class:nlohmann::detail::binary_reader	signature:(const NumberType len)
+get_cbor_object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    BasicJsonType get_cbor_object(const NumberType len)$/;"	function	line:5407	class:nlohmann::detail::binary_reader	signature:(const NumberType len)
+get_msgpack_string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::string get_msgpack_string()$/;"	function	line:5433	class:nlohmann::detail::binary_reader	signature:()
+get_msgpack_array	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    BasicJsonType get_msgpack_array(const NumberType len)$/;"	function	line:5502	class:nlohmann::detail::binary_reader	signature:(const NumberType len)
+get_msgpack_object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    BasicJsonType get_msgpack_object(const NumberType len)$/;"	function	line:5513	class:nlohmann::detail::binary_reader	signature:(const NumberType len)
+check_eof	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void check_eof(const bool expect_eof = false) const$/;"	function	line:5532	class:nlohmann::detail::binary_reader	signature:(const bool expect_eof = false) const
+ia	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    input_adapter_t ia = nullptr;$/;"	member	line:5552	class:nlohmann::detail::binary_reader
+current	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    int current = std::char_traits<char>::eof();$/;"	member	line:5555	class:nlohmann::detail::binary_reader
+chars_read	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::size_t chars_read = 0;$/;"	member	line:5558	class:nlohmann::detail::binary_reader
+is_little_endian	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const bool is_little_endian = little_endianess();$/;"	member	line:5561	class:nlohmann::detail::binary_reader
+binary_writer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class binary_writer$/;"	class	line:5568	namespace:nlohmann::detail
+binary_writer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit binary_writer(output_adapter_t<CharType> adapter) : oa(adapter)$/;"	function	line:5576	class:nlohmann::detail::binary_writer	signature:(output_adapter_t<CharType> adapter)
+write_cbor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void write_cbor(const BasicJsonType& j)$/;"	function	line:5584	class:nlohmann::detail::binary_writer	signature:(const BasicJsonType& j)
+write_msgpack	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void write_msgpack(const BasicJsonType& j)$/;"	function	line:5828	class:nlohmann::detail::binary_writer	signature:(const BasicJsonType& j)
+write_number	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    template<typename NumberType> void write_number(NumberType n)$/;"	function	line:6075	class:nlohmann::detail::binary_writer	signature:(NumberType n)
+is_little_endian	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const bool is_little_endian = binary_reader<BasicJsonType>::little_endianess();$/;"	member	line:6093	class:nlohmann::detail::binary_writer
+oa	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    output_adapter_t<CharType> oa = nullptr;$/;"	member	line:6096	class:nlohmann::detail::binary_writer
+serializer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class serializer$/;"	class	line:6104	namespace:nlohmann::detail
+serializer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    serializer(output_adapter_t<char> s, const char ichar)$/;"	function	line:6115	class:nlohmann::detail::serializer	signature:(output_adapter_t<char> s, const char ichar)
+dump	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void dump(const BasicJsonType& val, const bool pretty_print,$/;"	function	line:6142	class:nlohmann::detail::serializer	signature:(const BasicJsonType& val, const bool pretty_print, const bool ensure_ascii, const unsigned int indent_step, const unsigned int current_indent = 0)
+bytes_following	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static constexpr std::size_t bytes_following(const uint8_t u)$/;"	function	line:6341	class:nlohmann::detail::serializer	signature:(const uint8_t u)
+escape_codepoint	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void escape_codepoint(int codepoint, string_t& result, std::size_t& pos)$/;"	function	line:6453	class:nlohmann::detail::serializer	signature:(int codepoint, string_t& result, std::size_t& pos)
+dump_escaped	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void dump_escaped(const string_t& s, const bool ensure_ascii) const$/;"	function	line:6518	class:nlohmann::detail::serializer	signature:(const string_t& s, const bool ensure_ascii) const
+dump_integer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void dump_integer(NumberType x)$/;"	function	line:6674	class:nlohmann::detail::serializer	signature:(NumberType x)
+dump_float	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void dump_float(number_float_t x)$/;"	function	line:6716	class:nlohmann::detail::serializer	signature:(number_float_t x)
+o	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    output_adapter_t<char> o = nullptr;$/;"	member	line:6788	class:nlohmann::detail::serializer
+loc	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const std::lconv* loc = nullptr;$/;"	member	line:6794	class:nlohmann::detail::serializer
+thousands_sep	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const char thousands_sep = '\\0';$/;"	member	line:6796	class:nlohmann::detail::serializer
+decimal_point	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const char decimal_point = '\\0';$/;"	member	line:6798	class:nlohmann::detail::serializer
+indent_char	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const char indent_char;$/;"	member	line:6801	class:nlohmann::detail::serializer
+indent_string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    string_t indent_string;$/;"	member	line:6804	class:nlohmann::detail::serializer
+json_ref	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class json_ref$/;"	class	line:6808	namespace:nlohmann::detail
+json_ref	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_ref(value_type&& value)$/;"	function	line:6813	class:nlohmann::detail::json_ref	signature:(value_type&& value)
+json_ref	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_ref(const value_type& value)$/;"	function	line:6819	class:nlohmann::detail::json_ref	signature:(const value_type& value)
+json_ref	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_ref(std::initializer_list<json_ref> init)$/;"	function	line:6824	class:nlohmann::detail::json_ref	signature:(std::initializer_list<json_ref> init)
+json_ref	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_ref(Args... args)$/;"	function	line:6831	class:nlohmann::detail::json_ref	signature:(Args.... args)
+moved_or_copied	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    value_type moved_or_copied() const$/;"	function	line:6842	class:nlohmann::detail::json_ref	signature:() const
+operator *	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    value_type const& operator*() const$/;"	function	line:6851	class:nlohmann::detail::json_ref	signature:() const
+operator ->	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    value_type const* operator->() const$/;"	function	line:6856	class:nlohmann::detail::json_ref	signature:() const
+owned_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    mutable value_type owned_value = nullptr;$/;"	member	line:6862	class:nlohmann::detail::json_ref
+value_ref	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    value_type* value_ref = nullptr;$/;"	member	line:6863	class:nlohmann::detail::json_ref
+is_rvalue	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const bool is_rvalue;$/;"	member	line:6864	class:nlohmann::detail::json_ref
+to_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^constexpr const auto& to_json = detail::static_const<detail::to_json_fn>::value;$/;"	member	line:6872	namespace:nlohmann::__anon1
+from_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^constexpr const auto& from_json = detail::static_const<detail::from_json_fn>::value;$/;"	member	line:6873	namespace:nlohmann::__anon1
+adl_serializer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct adl_serializer$/;"	struct	line:6885	namespace:nlohmann
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        noexcept(::nlohmann::from_json(std::forward<BasicJsonType>(j), val)))$/;"	function	line:6898	struct:nlohmann::adl_serializer	signature:(::nlohmann::from_json(
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        noexcept(::nlohmann::to_json(j, std::forward<ValueType>(val))))$/;"	function	line:6914	struct:nlohmann::adl_serializer	signature:(::nlohmann::to_json(
+json_pointer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class json_pointer$/;"	class	line:6931	namespace:nlohmann
+json_pointer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    explicit json_pointer(const std::string& s = "") : reference_tokens(split(s)) {}$/;"	function	line:6959	class:nlohmann::json_pointer	signature:(const std::string& s = Ó)
+operator std::string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    operator std::string() const$/;"	function	line:6987	class:nlohmann::json_pointer	signature:() const
+pop_back	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::string pop_back()$/;"	function	line:6997	class:nlohmann::json_pointer	signature:()
+is_root	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    bool is_root() const$/;"	function	line:7010	class:nlohmann::json_pointer	signature:() const
+top	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_pointer top() const$/;"	function	line:7015	class:nlohmann::json_pointer	signature:() const
+split	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static std::vector<std::string> split(const std::string& reference_string)$/;"	function	line:7104	class:nlohmann::json_pointer	signature:(const std::string& reference_string)
+replace_substring	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void replace_substring(std::string& s, const std::string& f,$/;"	function	line:7179	class:nlohmann::json_pointer	signature:(std::string& s, const std::string& f, const std::string& t)
+escape	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static std::string escape(std::string s)$/;"	function	line:7191	class:nlohmann::json_pointer	signature:(std::string s)
+unescape	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void unescape(std::string& s)$/;"	function	line:7199	class:nlohmann::json_pointer	signature:(std::string& s)
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^                           json_pointer const& rhs) noexcept;$/;"	member	line:7232	class:nlohmann::json_pointer
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^                           json_pointer const& rhs) noexcept;$/;"	member	line:7235	class:nlohmann::json_pointer
+reference_tokens	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::vector<std::string> reference_tokens;$/;"	member	line:7238	class:nlohmann::json_pointer
+basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^class basic_json$/;"	class	line:7323	namespace:nlohmann
+get_allocator	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static allocator_type get_allocator()$/;"	function	line:7439	class:nlohmann::basic_json	signature:()
+meta	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json meta()$/;"	function	line:7470	class:nlohmann::basic_json	signature:()
+create	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static T* create(Args&& ... args)$/;"	function	line:7963	class:nlohmann::basic_json	signature:(Args&& .... args)
+json_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    union json_value$/;"	union	line:8004	class:nlohmann::basic_json
+object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        object_t* object;$/;"	member	line:8007	union:nlohmann::basic_json::json_value
+array	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        array_t* array;$/;"	member	line:8009	union:nlohmann::basic_json::json_value
+string	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        string_t* string;$/;"	member	line:8011	union:nlohmann::basic_json::json_value
+boolean	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        boolean_t boolean;$/;"	member	line:8013	union:nlohmann::basic_json::json_value
+number_integer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        number_integer_t number_integer;$/;"	member	line:8015	union:nlohmann::basic_json::json_value
+number_unsigned	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        number_unsigned_t number_unsigned;$/;"	member	line:8017	union:nlohmann::basic_json::json_value
+number_float	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        number_float_t number_float;$/;"	member	line:8019	union:nlohmann::basic_json::json_value
+boolean	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(boolean_t v) noexcept : boolean(v) {}$/;"	function	line:8024	union:nlohmann::basic_json::json_value	signature:(v)
+number_integer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(number_integer_t v) noexcept : number_integer(v) {}$/;"	function	line:8026	union:nlohmann::basic_json::json_value	signature:(v)
+number_unsigned	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(number_unsigned_t v) noexcept : number_unsigned(v) {}$/;"	function	line:8028	union:nlohmann::basic_json::json_value	signature:(v)
+number_float	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(number_float_t v) noexcept : number_float(v) {}$/;"	function	line:8030	union:nlohmann::basic_json::json_value	signature:(v)
+json_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(value_t t)$/;"	function	line:8032	union:nlohmann::basic_json::json_value	signature:(value_t t)
+json_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(const string_t& value)$/;"	function	line:8095	union:nlohmann::basic_json::json_value	signature:(const string_t& value)
+json_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(string_t&& value)$/;"	function	line:8101	union:nlohmann::basic_json::json_value	signature:(string_t&& value)
+json_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(const object_t& value)$/;"	function	line:8107	union:nlohmann::basic_json::json_value	signature:(const object_t& value)
+json_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(object_t&& value)$/;"	function	line:8113	union:nlohmann::basic_json::json_value	signature:(object_t&& value)
+json_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(const array_t& value)$/;"	function	line:8119	union:nlohmann::basic_json::json_value	signature:(const array_t& value)
+json_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        json_value(array_t&& value)$/;"	function	line:8125	union:nlohmann::basic_json::json_value	signature:(array_t&& value)
+destroy	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        void destroy(value_t t)$/;"	function	line:8130	union:nlohmann::basic_json::json_value	signature:(value_t t)
+assert_invariant	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void assert_invariant() const$/;"	function	line:8175	class:nlohmann::basic_json	signature:() const
+basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json(const value_t v)$/;"	function	line:8282	class:nlohmann::basic_json	signature:(const value_t v)
+basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^        : basic_json(value_t::null)$/;"	function	line:8307	class:nlohmann::basic_json	signature:(value_t::null)
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json(CompatibleType && val) noexcept(noexcept(JSONSerializer<U>::to_json($/;"	function	line:8375	class:nlohmann::basic_json	signature:(JSONSerializer<U>::to_json( 
+basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json(initializer_list_t init,$/;"	function	line:8456	class:nlohmann::basic_json	signature:(initializer_list_t init, bool type_deduction = true, value_t manual_type = value_t::array)
+array	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json array(initializer_list_t init = {})$/;"	function	line:8545	class:nlohmann::basic_json	signature:(initializer_list_t init = {})
+object	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json object(initializer_list_t init = {})$/;"	function	line:8588	class:nlohmann::basic_json	signature:(initializer_list_t init = {})
+basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json(size_type cnt, const basic_json& val)$/;"	function	line:8615	class:nlohmann::basic_json	signature:(size_type cnt, const basic_json& val)
+basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json(InputIT first, InputIT last)$/;"	function	line:8680	class:nlohmann::basic_json	signature:(InputIT first, InputIT last)
+basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json(const detail::json_ref<basic_json>& ref)$/;"	function	line:8775	class:nlohmann::basic_json	signature:(const detail::json_ref<basic_json>& ref)
+basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json(const basic_json& other)$/;"	function	line:8804	class:nlohmann::basic_json	signature:(const basic_json& other)
+move	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^          m_value(std::move(other.m_value))$/;"	function	line:8889	class:nlohmann::basic_json	signature:(other.m_value)
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference& operator=(basic_json other) noexcept ($/;"	function	line:8924	class:nlohmann::basic_json	signature:( std::is_nothrow_move_constructible<value_t>::value and std::is_nothrow_move_assignable<value_t>::value and std::is_nothrow_move_constructible<json_value>::value and std::is_nothrow_move_assignable<json_value>::value )
+~basic_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    ~basic_json()$/;"	function	line:8957	class:nlohmann::basic_json	signature:()
+dump	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    string_t dump(const int indent = -1, const char indent_char = ' ',$/;"	function	line:9007	class:nlohmann::basic_json	signature:(const int indent = -1, const char indent_char = Ã, const bool ensure_ascii = false) const
+get_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    boolean_t get_impl(boolean_t* \/*unused*\/) const$/;"	function	line:9405	class:nlohmann::basic_json	signature:(boolean_t* ) const
+get_ref_impl	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static ReferenceType get_ref_impl(ThisType& obj)$/;"	function	line:9511	class:nlohmann::basic_json	signature:(ThisType& obj)
+get	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json get() const$/;"	function	line:9548	class:nlohmann::basic_json	signature:() const
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    ValueType get() const noexcept(noexcept($/;"	function	line:9600	class:nlohmann::basic_json	signature:(JSONSerializer<ValueType>::from_json(
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    ValueType get() const noexcept(noexcept($/;"	function	line:9653	class:nlohmann::basic_json	signature:(JSONSerializer<ValueTypeCV>::from_json(
+get_ref	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    ReferenceType get_ref()$/;"	function	line:9813	class:nlohmann::basic_json	signature:()
+get_ref	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    ReferenceType get_ref() const$/;"	function	line:9826	class:nlohmann::basic_json	signature:() const
+operator ValueType	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    operator ValueType() const$/;"	function	line:9872	class:nlohmann::basic_json	signature:() const
+at	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference at(size_type idx)$/;"	function	line:9915	class:nlohmann::basic_json	signature:(size_type idx)
+at	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference at(size_type idx) const$/;"	function	line:9962	class:nlohmann::basic_json	signature:(size_type idx) const
+at	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference at(const typename object_t::key_type& key)$/;"	function	line:10013	class:nlohmann::basic_json	signature:(const typename object_t::key_type& key)
+at	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference at(const typename object_t::key_type& key) const$/;"	function	line:10064	class:nlohmann::basic_json	signature:(const typename object_t::key_type& key) const
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator[](size_type idx)$/;"	function	line:10110	class:nlohmann::basic_json	signature:(size_type idx)
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference operator[](size_type idx) const$/;"	function	line:10156	class:nlohmann::basic_json	signature:(size_type idx) const
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator[](const typename object_t::key_type& key)$/;"	function	line:10194	class:nlohmann::basic_json	signature:(const typename object_t::key_type& key)
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference operator[](const typename object_t::key_type& key) const$/;"	function	line:10243	class:nlohmann::basic_json	signature:(const typename object_t::key_type& key) const
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator[](T* key)$/;"	function	line:10283	class:nlohmann::basic_json	signature:(T* key)
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference operator[](T* key) const$/;"	function	line:10333	class:nlohmann::basic_json	signature:(T* key) const
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    ValueType value(const typename object_t::key_type& key, const ValueType& default_value) const$/;"	function	line:10395	class:nlohmann::basic_json	signature:(const typename object_t::key_type& key, const ValueType& default_value) const
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    string_t value(const typename object_t::key_type& key, const char* default_value) const$/;"	function	line:10417	class:nlohmann::basic_json	signature:(const typename object_t::key_type& key, const char* default_value) const
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    ValueType value(const json_pointer& ptr, const ValueType& default_value) const$/;"	function	line:10465	class:nlohmann::basic_json	signature:(const json_pointer& ptr, const ValueType& default_value) const
+value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    string_t value(const json_pointer& ptr, const char* default_value) const$/;"	function	line:10488	class:nlohmann::basic_json	signature:(const json_pointer& ptr, const char* default_value) const
+front	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference front()$/;"	function	line:10518	class:nlohmann::basic_json	signature:()
+front	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference front() const$/;"	function	line:10526	class:nlohmann::basic_json	signature:() const
+back	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference back()$/;"	function	line:10562	class:nlohmann::basic_json	signature:()
+back	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference back() const$/;"	function	line:10572	class:nlohmann::basic_json	signature:() const
+erase	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    IteratorType erase(IteratorType pos)$/;"	function	line:10629	class:nlohmann::basic_json	signature:(IteratorType pos)
+erase	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    IteratorType erase(IteratorType first, IteratorType last)$/;"	function	line:10734	class:nlohmann::basic_json	signature:(IteratorType first, IteratorType last)
+erase	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    size_type erase(const typename object_t::key_type& key)$/;"	function	line:10821	class:nlohmann::basic_json	signature:(const typename object_t::key_type& key)
+erase	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void erase(const size_type idx)$/;"	function	line:10856	class:nlohmann::basic_json	signature:(const size_type idx)
+find	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iterator find(typename object_t::key_type key)$/;"	function	line:10906	class:nlohmann::basic_json	signature:(typename object_t::key_type key)
+find	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_iterator find(typename object_t::key_type key) const$/;"	function	line:10922	class:nlohmann::basic_json	signature:(typename object_t::key_type key) const
+count	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    size_type count(typename object_t::key_type key) const$/;"	function	line:10955	class:nlohmann::basic_json	signature:(typename object_t::key_type key) const
+iterator_wrapper	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static iteration_proxy<iterator> iterator_wrapper(reference cont)$/;"	function	line:11258	class:nlohmann::basic_json	signature:(reference cont)
+iterator_wrapper	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static iteration_proxy<const_iterator> iterator_wrapper(const_reference cont)$/;"	function	line:11266	class:nlohmann::basic_json	signature:(const_reference cont)
+push_back	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void push_back(basic_json&& val)$/;"	function	line:11589	class:nlohmann::basic_json	signature:(basic_json&& val)
+operator +=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator+=(basic_json&& val)$/;"	function	line:11615	class:nlohmann::basic_json	signature:(basic_json&& val)
+push_back	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void push_back(const basic_json& val)$/;"	function	line:11625	class:nlohmann::basic_json	signature:(const basic_json& val)
+operator +=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator+=(const basic_json& val)$/;"	function	line:11649	class:nlohmann::basic_json	signature:(const basic_json& val)
+push_back	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void push_back(const typename object_t::value_type& val)$/;"	function	line:11675	class:nlohmann::basic_json	signature:(const typename object_t::value_type& val)
+operator +=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator+=(const typename object_t::value_type& val)$/;"	function	line:11699	class:nlohmann::basic_json	signature:(const typename object_t::value_type& val)
+push_back	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void push_back(initializer_list_t init)$/;"	function	line:11730	class:nlohmann::basic_json	signature:(initializer_list_t init)
+operator +=	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator+=(initializer_list_t init)$/;"	function	line:11748	class:nlohmann::basic_json	signature:(initializer_list_t init)
+emplace_back	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void emplace_back(Args&& ... args)$/;"	function	line:11776	class:nlohmann::basic_json	signature:(Args&& .... args)
+emplace	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::pair<iterator, bool> emplace(Args&& ... args)$/;"	function	line:11824	class:nlohmann::basic_json	signature:(Args&& .... args)
+insert	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iterator insert(const_iterator pos, const basic_json& val)$/;"	function	line:11872	class:nlohmann::basic_json	signature:(const_iterator pos, const basic_json& val)
+insert	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iterator insert(const_iterator pos, basic_json&& val)$/;"	function	line:11896	class:nlohmann::basic_json	signature:(const_iterator pos, basic_json&& val)
+insert	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iterator insert(const_iterator pos, size_type cnt, const basic_json& val)$/;"	function	line:11925	class:nlohmann::basic_json	signature:(const_iterator pos, size_type cnt, const basic_json& val)
+insert	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iterator insert(const_iterator pos, const_iterator first, const_iterator last)$/;"	function	line:11975	class:nlohmann::basic_json	signature:(const_iterator pos, const_iterator first, const_iterator last)
+insert	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    iterator insert(const_iterator pos, initializer_list_t ilist)$/;"	function	line:12033	class:nlohmann::basic_json	signature:(const_iterator pos, initializer_list_t ilist)
+insert	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void insert(const_iterator first, const_iterator last)$/;"	function	line:12076	class:nlohmann::basic_json	signature:(const_iterator first, const_iterator last)
+update	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void update(const_reference j)$/;"	function	line:12119	class:nlohmann::basic_json	signature:(const_reference j)
+update	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void update(const_iterator first, const_iterator last)$/;"	function	line:12170	class:nlohmann::basic_json	signature:(const_iterator first, const_iterator last)
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void swap(reference other) noexcept ($/;"	function	line:12221	class:nlohmann::basic_json	signature:( std::is_nothrow_move_constructible<value_t>::value and std::is_nothrow_move_assignable<value_t>::value and std::is_nothrow_move_constructible<json_value>::value and std::is_nothrow_move_assignable<json_value>::value )
+swap	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void swap(array_t& other)$/;"	function	line:12253	class:nlohmann::basic_json	signature:(array_t& other)
+swap	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void swap(object_t& other)$/;"	function	line:12286	class:nlohmann::basic_json	signature:(object_t& other)
+swap	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    void swap(string_t& other)$/;"	function	line:12319	class:nlohmann::basic_json	signature:(string_t& other)
+operator <<	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    friend std::ostream& operator<<(std::ostream& o, const basic_json& j)$/;"	function	line:12804	class:nlohmann::basic_json	signature:(std::ostream& o, const basic_json& j)
+operator >>	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    friend std::ostream& operator>>(const basic_json& j, std::ostream& o)$/;"	function	line:12827	class:nlohmann::basic_json	signature:(const basic_json& j, std::ostream& o)
+parse	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json parse(detail::input_adapter i,$/;"	function	line:12904	class:nlohmann::basic_json	signature:(detail::input_adapter i, const parser_callback_t cb = nullptr, const bool allow_exceptions = true)
+parse	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json parse(detail::input_adapter& i,$/;"	function	line:12916	class:nlohmann::basic_json	signature:(detail::input_adapter& i, const parser_callback_t cb = nullptr, const bool allow_exceptions = true)
+accept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static bool accept(detail::input_adapter i)$/;"	function	line:12925	class:nlohmann::basic_json	signature:(detail::input_adapter i)
+accept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static bool accept(detail::input_adapter& i)$/;"	function	line:12930	class:nlohmann::basic_json	signature:(detail::input_adapter& i)
+parse	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json parse(IteratorType first, IteratorType last,$/;"	function	line:12984	class:nlohmann::basic_json	signature:(IteratorType first, IteratorType last, const parser_callback_t cb = nullptr, const bool allow_exceptions = true)
+accept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static bool accept(IteratorType first, IteratorType last)$/;"	function	line:12997	class:nlohmann::basic_json	signature:(IteratorType first, IteratorType last)
+operator <<	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    friend std::istream& operator<<(basic_json& j, std::istream& i)$/;"	function	line:13010	class:nlohmann::basic_json	signature:(basic_json& j, std::istream& i)
+operator >>	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    friend std::istream& operator>>(std::istream& i, basic_json& j)$/;"	function	line:13040	class:nlohmann::basic_json	signature:(std::istream& i, basic_json& j)
+m_type	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    value_t m_type = value_t::null;$/;"	member	line:13112	class:nlohmann::basic_json
+m_value	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    json_value m_value = {};$/;"	member	line:13115	class:nlohmann::basic_json
+to_cbor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static std::vector<uint8_t> to_cbor(const basic_json& j)$/;"	function	line:13211	class:nlohmann::basic_json	signature:(const basic_json& j)
+to_cbor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void to_cbor(const basic_json& j, detail::output_adapter<uint8_t> o)$/;"	function	line:13218	class:nlohmann::basic_json	signature:(const basic_json& j, detail::output_adapter<uint8_t> o)
+to_cbor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void to_cbor(const basic_json& j, detail::output_adapter<char> o)$/;"	function	line:13223	class:nlohmann::basic_json	signature:(const basic_json& j, detail::output_adapter<char> o)
+to_msgpack	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static std::vector<uint8_t> to_msgpack(const basic_json& j)$/;"	function	line:13306	class:nlohmann::basic_json	signature:(const basic_json& j)
+to_msgpack	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void to_msgpack(const basic_json& j, detail::output_adapter<uint8_t> o)$/;"	function	line:13313	class:nlohmann::basic_json	signature:(const basic_json& j, detail::output_adapter<uint8_t> o)
+to_msgpack	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static void to_msgpack(const basic_json& j, detail::output_adapter<char> o)$/;"	function	line:13318	class:nlohmann::basic_json	signature:(const basic_json& j, detail::output_adapter<char> o)
+from_cbor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json from_cbor(detail::input_adapter i,$/;"	function	line:13414	class:nlohmann::basic_json	signature:(detail::input_adapter i, const bool strict = true)
+from_cbor	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json from_cbor(A1 && a1, A2 && a2, const bool strict = true)$/;"	function	line:13425	class:nlohmann::basic_json	signature:(A1 && a1, A2 && a2, const bool strict = true)
+from_msgpack	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json from_msgpack(detail::input_adapter i,$/;"	function	line:13501	class:nlohmann::basic_json	signature:(detail::input_adapter i, const bool strict = true)
+from_msgpack	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json from_msgpack(A1 && a1, A2 && a2, const bool strict = true)$/;"	function	line:13512	class:nlohmann::basic_json	signature:(A1 && a1, A2 && a2, const bool strict = true)
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference operator[](const json_pointer& ptr)$/;"	function	line:13559	class:nlohmann::basic_json	signature:(const json_pointer& ptr)
+operator []	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference operator[](const json_pointer& ptr) const$/;"	function	line:13587	class:nlohmann::basic_json	signature:(const json_pointer& ptr) const
+at	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    reference at(const json_pointer& ptr)$/;"	function	line:13627	class:nlohmann::basic_json	signature:(const json_pointer& ptr)
+at	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    const_reference at(const json_pointer& ptr) const$/;"	function	line:13667	class:nlohmann::basic_json	signature:(const json_pointer& ptr) const
+flatten	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json flatten() const$/;"	function	line:13694	class:nlohmann::basic_json	signature:() const
+unflatten	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json unflatten() const$/;"	function	line:13731	class:nlohmann::basic_json	signature:() const
+patch	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    basic_json patch(const basic_json& json_patch) const$/;"	function	line:13792	class:nlohmann::basic_json	signature:(const basic_json& json_patch) const
+diff	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    static basic_json diff(const basic_json& source, const basic_json& target,$/;"	function	line:14084	class:nlohmann::basic_json	signature:(const basic_json& source, const basic_json& target, const std::string& path = Ó)
+get_and_create	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^json_pointer::get_and_create(NLOHMANN_BASIC_JSON_TPL& j) const$/;"	function	line:14232	class:nlohmann::json_pointer	signature:(NLOHMANN_BASIC_JSON_TPL& j) const
+get_unchecked	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^json_pointer::get_unchecked(NLOHMANN_BASIC_JSON_TPL* ptr) const$/;"	function	line:14295	class:nlohmann::json_pointer	signature:(NLOHMANN_BASIC_JSON_TPL* ptr) const
+get_checked	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^json_pointer::get_checked(NLOHMANN_BASIC_JSON_TPL* ptr) const$/;"	function	line:14367	class:nlohmann::json_pointer	signature:(NLOHMANN_BASIC_JSON_TPL* ptr) const
+get_unchecked	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^json_pointer::get_unchecked(const NLOHMANN_BASIC_JSON_TPL* ptr) const$/;"	function	line:14421	class:nlohmann::json_pointer	signature:(const NLOHMANN_BASIC_JSON_TPL* ptr) const
+get_checked	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^json_pointer::get_checked(const NLOHMANN_BASIC_JSON_TPL* ptr) const$/;"	function	line:14476	class:nlohmann::json_pointer	signature:(const NLOHMANN_BASIC_JSON_TPL* ptr) const
+flatten	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^void json_pointer::flatten(const std::string& reference_string,$/;"	function	line:14529	class:nlohmann::json_pointer	signature:(const std::string& reference_string, const NLOHMANN_BASIC_JSON_TPL& value, NLOHMANN_BASIC_JSON_TPL& result)
+unflatten	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^json_pointer::unflatten(const NLOHMANN_BASIC_JSON_TPL& value)$/;"	function	line:14583	class:nlohmann::json_pointer	signature:(const NLOHMANN_BASIC_JSON_TPL& value)
+std	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^namespace std$/;"	namespace	line:14627
+noexcept	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^                 nlohmann::json& j2) noexcept($/;"	function	line:14636	namespace:std	signature:( is_nothrow_move_constructible<nlohmann::json>::value and is_nothrow_move_assignable<nlohmann::json>::value )
+hash	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct hash<nlohmann::json>$/;"	struct	line:14646	namespace:std
+operator ()	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^    std::size_t operator()(const nlohmann::json& j) const$/;"	function	line:14653	struct:std::hash	signature:(const nlohmann::json& j) const
+less	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^struct less< ::nlohmann::detail::value_t>$/;"	struct	line:14665	namespace:std
+_json	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^inline nlohmann::json operator "" _json(const char* s, std::size_t n)$/;"	function	line:14693	signature:(const char* s, std::size_t n)
+_json_pointer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^inline nlohmann::json::json_pointer operator "" _json_pointer(const char* s, std::size_t n)$/;"	function	line:14711	signature:(const char* s, std::size_t n)
+JSON_CATCH	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef JSON_CATCH$/;"	macro	line:14725
+JSON_THROW	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef JSON_THROW$/;"	macro	line:14726
+JSON_TRY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef JSON_TRY$/;"	macro	line:14727
+JSON_LIKELY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef JSON_LIKELY$/;"	macro	line:14728
+JSON_UNLIKELY	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef JSON_UNLIKELY$/;"	macro	line:14729
+JSON_DEPRECATED	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef JSON_DEPRECATED$/;"	macro	line:14730
+NLOHMANN_BASIC_JSON_TPL_DECLARATION	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef NLOHMANN_BASIC_JSON_TPL_DECLARATION$/;"	macro	line:14731
+NLOHMANN_BASIC_JSON_TPL	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/json.hpp	/^#undef NLOHMANN_BASIC_JSON_TPL$/;"	macro	line:14732
+PROGRESS_MOD	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^#define PROGRESS_MOD /;"	macro	line:25	file:
+initialize	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^  DLLEXPORT void* initialize(unsigned int fs, unsigned int frame_len,$/;"	function	line:28	signature:(unsigned int fs, unsigned int frame_len, unsigned int resp_len, float* mic_locs, unsigned int num_mics)
+destroy	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^  DLLEXPORT void destroy(void* sd_) {$/;"	function	line:36	signature:(void* sd_)
+processIRs	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^  DLLEXPORT void processIRs(void* sd_, float* irs, float* az_out, float* el_out) {$/;"	function	line:42	signature:(void* sd_, float* irs, float* az_out, float* el_out)
+centralAngle	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^  DLLEXPORT float centralAngle(float az0, float el0, float az1, float el1) {$/;"	function	line:52	signature:(float az0, float el0, float az1, float el1)
+synthFromLocs	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^  DLLEXPORT void synthFromLocs(float* p, float* az0, float* el0, float* az1, float* el1,$/;"	function	line:56	signature:(float* p, float* az0, float* el0, float* az1, float* el1, unsigned int resp_len, unsigned int num_ls, float* ret)
+nextPow2	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^unsigned int nextPow2(unsigned int v) {$/;"	function	line:79	signature:(unsigned int v)
+initialize	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^void SpatialDecomposer::initialize(unsigned int fs, unsigned int frame_len,$/;"	function	line:90	class:SpatialDecomposer	signature:(unsigned int fs, unsigned int frame_len, unsigned int resp_len, float* mic_locs, unsigned int num_mics)
+destroy	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^void SpatialDecomposer::destroy() {$/;"	function	line:171	class:SpatialDecomposer	signature:()
+multiplyConjugate	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^void multiplyConjugate(fftwf_complex* a, fftwf_complex* b, fftwf_complex* output) {$/;"	function	line:188	signature:(fftwf_complex* a, fftwf_complex* b, fftwf_complex* output)
+blockShift	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^void blockShift(float* data, float* temp, unsigned int len) {$/;"	function	line:194	signature:(float* data, float* temp, unsigned int len)
+maxIdx	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^unsigned int SpatialDecomposer::maxIdx(float* data, unsigned int offset,$/;"	function	line:202	class:SpatialDecomposer	signature:(float* data, unsigned int offset, unsigned int max_dist_i)
+interpolateTau	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^float SpatialDecomposer::interpolateTau(float* data, unsigned int i) {$/;"	function	line:215	class:SpatialDecomposer	signature:(float* data, unsigned int i)
+processIRs	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.cpp	/^void SpatialDecomposer::processIRs(float** irs) {$/;"	function	line:223	class:SpatialDecomposer	signature:(float** irs)
+SPATIAL_DECOMPOSITION_HPP	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^#define SPATIAL_DECOMPOSITION_HPP$/;"	macro	line:2
+DLLEXPORT	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  #define DLLEXPORT /;"	macro	line:35
+DLLEXPORT	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  #define DLLEXPORT$/;"	macro	line:37
+EIGEN_USE_LAPACKE	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^#define EIGEN_USE_LAPACKE$/;"	macro	line:40
+cart2sph	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^inline Eigen::Vector3f cart2sph(Eigen::Vector3f cart) {$/;"	function	line:56	signature:(Eigen::Vector3f cart)
+sph2cart	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^inline Eigen::Vector3f sph2cart(Eigen::Vector3f sph) {$/;"	function	line:64	signature:(Eigen::Vector3f sph)
+pinv	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^inline bool pinv(const _Matrix_Type_ &a, _Matrix_Type_ &result,$/;"	function	line:74	signature:(const _Matrix_Type_ &a, _Matrix_Type_ &result, double epsilon = std::numeric_limits<double>::epsilon())
+SpatialDecomposer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^class SpatialDecomposer {$/;"	class	line:90
+SpatialDecomposer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  SpatialDecomposer() {};$/;"	function	line:92	class:SpatialDecomposer	signature:()
+~SpatialDecomposer	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  ~SpatialDecomposer() {};$/;"	function	line:93	class:SpatialDecomposer	signature:()
+comb	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector<unsigned int> comb(int N, int K) {$/;"	function	line:108	class:SpatialDecomposer	signature:(int N, int K)
+hanning	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector<float> hanning(unsigned int len) {$/;"	function	line:121	class:SpatialDecomposer	signature:(unsigned int len)
+fft_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  fftwf_plan fft_;$/;"	member	line:145	class:SpatialDecomposer
+ifft_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  fftwf_plan ifft_;$/;"	member	line:146	class:SpatialDecomposer
+f_buffers_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector< fftwf_complex* > f_buffers_;$/;"	member	line:147	class:SpatialDecomposer
+t_buffers_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector< float* > t_buffers_;$/;"	member	line:148	class:SpatialDecomposer
+han_window_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector< float > han_window_;$/;"	member	line:149	class:SpatialDecomposer
+corr_buffers_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector< fftwf_complex* > corr_buffers_;$/;"	member	line:151	class:SpatialDecomposer
+real_corr_buffers_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector< float* > real_corr_buffers_;$/;"	member	line:152	class:SpatialDecomposer
+ret_p_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector<float> ret_p_;$/;"	member	line:154	class:SpatialDecomposer
+ret_az_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector<float> ret_az_;$/;"	member	line:155	class:SpatialDecomposer
+ret_el_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  std::vector<float> ret_el_;$/;"	member	line:156	class:SpatialDecomposer
+fs_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int fs_;$/;"	member	line:158	class:SpatialDecomposer
+frame_len_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int frame_len_;$/;"	member	line:159	class:SpatialDecomposer
+complex_len_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int complex_len_;$/;"	member	line:160	class:SpatialDecomposer
+transform_len_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int transform_len_;$/;"	member	line:161	class:SpatialDecomposer
+transform_len_dif_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int transform_len_dif_;$/;"	member	line:162	class:SpatialDecomposer
+num_win_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int num_win_;$/;"	member	line:163	class:SpatialDecomposer
+resp_len_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int resp_len_;$/;"	member	line:164	class:SpatialDecomposer
+num_mics_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int num_mics_;$/;"	member	line:165	class:SpatialDecomposer
+num_mic_pairs_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int num_mic_pairs_;$/;"	member	line:166	class:SpatialDecomposer
+max_dist_i_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int max_dist_i_;$/;"	member	line:167	class:SpatialDecomposer
+offset_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  unsigned int offset_;$/;"	member	line:168	class:SpatialDecomposer
+mic_locs_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  Eigen::MatrixXf mic_locs_;$/;"	member	line:169	class:SpatialDecomposer
+ls_locs_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  Eigen::MatrixXf ls_locs_;$/;"	member	line:170	class:SpatialDecomposer
+mic_pairs_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  Eigen::MatrixXi mic_pairs_;$/;"	member	line:171	class:SpatialDecomposer
+V_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  Eigen::MatrixXf V_;$/;"	member	line:172	class:SpatialDecomposer
+inv_V_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  Eigen::MatrixXf inv_V_;$/;"	member	line:173	class:SpatialDecomposer
+pair_dists_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  Eigen::MatrixXf pair_dists_;$/;"	member	line:174	class:SpatialDecomposer
+tau_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  Eigen::MatrixXf tau_;$/;"	member	line:175	class:SpatialDecomposer
+c_	/Users/jukkasaarelma/Documents/koodit/cxxsdm/src/spatialDecomposition.hpp	/^  float c_;$/;"	member	line:176	class:SpatialDecomposer
